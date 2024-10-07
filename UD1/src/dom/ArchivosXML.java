@@ -100,6 +100,8 @@ public class ArchivosXML {
 
 		NodeList nl = p.getChildNodes();
 
+		System.out.println("Tengo "+nl.getLength()+" hijos");
+		
 		for (int i = 0; i < nl.getLength(); i++) {
 			Node n = nl.item(i);
 
